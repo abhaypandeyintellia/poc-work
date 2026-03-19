@@ -1,0 +1,17 @@
+{
+  "name": "stock-ticker-server",
+  "version": "1.0.0",
+  "description": "Real-time stock ticker WebSocket server",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
