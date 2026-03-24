@@ -1,0 +1,1 @@
+export { RideAcceptedSchema } from "./ride.schema.js";
